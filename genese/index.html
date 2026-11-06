@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Genèse – Deviens testeur</title>
+<meta name="description" content="Aide Genèse à sortir sur Google Play : deviens testeur en 2 minutes (Android).">
+<meta property="og:title" content="Genèse – Deviens testeur">
+<meta property="og:description" content="Tu es un dieu. Fais naître une planète et regarde la vie évoluer. Aide le jeu à sortir : 12 testeurs, 14 jours.">
+<meta property="og:image" content="https://trapzor-souf.github.io/genese/img/icone.png">
+<link rel="icon" href="img/icone.png">
+<style>
+  :root { --fond:#120c1f; --carte:#1e1533; --texte:#f3eefc; --doux:#b9acd6; --or:#f5c451; --vert:#5fd38d; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; background:radial-gradient(circle at 50% -10%, #3a2470 0%, var(--fond) 55%); color:var(--texte); line-height:1.5; }
+  main { max-width:560px; margin:0 auto; padding:28px 16px 48px; }
+  header { text-align:center; }
+  header img { width:96px; height:96px; border-radius:22px; box-shadow:0 8px 30px #0008; }
+  h1 { font-size:1.9rem; margin:12px 0 4px; }
+  .accroche { color:var(--doux); margin:0 0 18px; }
+  .compteur { background:var(--carte); border-radius:14px; padding:14px 16px; text-align:center; margin-bottom:22px; }
+  .compteur b { color:var(--or); font-size:1.15rem; }
+  .android { display:inline-block; margin-top:6px; font-size:.9rem; color:var(--vert); }
+  ol { list-style:none; padding:0; margin:0; counter-reset:e; }
+  li { background:var(--carte); border-radius:16px; padding:16px; margin-bottom:14px; counter-increment:e; position:relative; padding-left:62px; }
+  li::before { content:counter(e); position:absolute; left:16px; top:16px; width:32px; height:32px; border-radius:50%; background:var(--or); color:#241a06; font-weight:800; display:grid; place-items:center; }
+  li h2 { font-size:1.05rem; margin:2px 0 6px; }
+  li p { margin:0 0 10px; color:var(--doux); font-size:.95rem; }
+  .bouton { display:block; text-align:center; background:var(--or); color:#241a06; font-weight:700; text-decoration:none; padding:13px 14px; border-radius:12px; }
+  .bouton:active { transform:scale(.98); }
+  .note { font-size:.85rem; color:var(--doux); margin-top:8px; }
+  .captures { display:flex; gap:10px; overflow-x:auto; margin:26px -16px 0; padding:0 16px 8px; scroll-snap-type:x mandatory; }
+  .captures img { width:150px; border-radius:12px; flex:none; scroll-snap-align:start; }
+  footer { text-align:center; margin-top:30px; color:var(--doux); font-size:.85rem; }
+  footer img { width:44px; height:44px; vertical-align:middle; border-radius:8px; margin-right:6px; }
+  footer a { color:var(--doux); }
+  .langue { position:absolute; top:12px; right:16px; }
+  .langue button { background:none; border:1px solid #fff3; color:var(--doux); border-radius:8px; padding:4px 10px; font:inherit; font-size:.85rem; cursor:pointer; }
+</style>
+</head>
+<body>
+<div class="langue"><button id="bascule" type="button">English</button></div>
+<main>
+  <header>
+    <img src="img/icone.png" alt="Icône de Genèse">
+    <h1 data-fr="Genèse" data-en="Genesis">Genèse</h1>
+    <p class="accroche" data-fr="Tu es un dieu avec un peu de poussière. Fais naître une planète et regarde la vie évoluer, de la bactérie à l'intelligence artificielle." data-en="You are a god with a bit of dust. Give birth to a planet and watch life evolve, from bacteria to artificial intelligence.">Tu es un dieu avec un peu de poussière. Fais naître une planète et regarde la vie évoluer, de la bactérie à l'intelligence artificielle.</p>
+  </header>
+
+  <div class="compteur">
+    <span data-fr="Pour sortir sur Google Play, Google exige <b>12 testeurs pendant 14 jours</b>. Aide-moi, ça prend 2 minutes !" data-en="To launch on Google Play, Google requires <b>12 testers for 14 days</b>. Help me out, it takes 2 minutes!">Pour sortir sur Google Play, Google exige <b>12 testeurs pendant 14 jours</b>. Aide-moi, ça prend 2 minutes !</span><br>
+    <span class="android" data-fr="📱 Téléphone Android + compte Google (Gmail) · gratuit" data-en="📱 Android phone + Google account (Gmail) · free">📱 Téléphone Android + compte Google (Gmail) · gratuit</span>
+  </div>
+
+  <ol>
+    <li>
+      <h2 data-fr="Rejoins le groupe des testeurs" data-en="Join the testers group">Rejoins le groupe des testeurs</h2>
+      <p data-fr="Connecte-toi avec le compte Google de ton téléphone, puis touche « Rejoindre le groupe »." data-en="Sign in with your phone's Google account, then tap “Join group”.">Connecte-toi avec le compte Google de ton téléphone, puis touche « Rejoindre le groupe ».</p>
+      <a class="bouton" href="https://groups.google.com/g/genese-testeurs" target="_blank" rel="noopener" data-fr="Rejoindre le groupe" data-en="Join the group">Rejoindre le groupe</a>
+    </li>
+    <li>
+      <h2 data-fr="Deviens testeur" data-en="Become a tester">Deviens testeur</h2>
+      <p data-fr="Touche « Devenir testeur » sur la page Google Play." data-en="Tap “Become a tester” on the Google Play page.">Touche « Devenir testeur » sur la page Google Play.</p>
+      <a class="bouton" href="https://play.google.com/apps/testing/com.trapzor.genese" target="_blank" rel="noopener" data-fr="Devenir testeur" data-en="Become a tester">Devenir testeur</a>
+      <p class="note" data-fr="Si la page dit que l'appli n'est pas disponible, attends quelques minutes après l'étape 1 et réessaie." data-en="If the page says the app isn't available, wait a few minutes after step 1 and try again.">Si la page dit que l'appli n'est pas disponible, attends quelques minutes après l'étape 1 et réessaie.</p>
+    </li>
+    <li>
+      <h2 data-fr="Installe le jeu et garde-le 14 jours" data-en="Install the game and keep it 14 days">Installe le jeu et garde-le 14 jours</h2>
+      <p data-fr="Pas besoin d'y jouer tous les jours. Ne le désinstalle pas avant 14 jours. Merci, tu es un dieu 🙏" data-en="No need to play every day. Just don't uninstall it before 14 days. Thank you, you're a god 🙏">Pas besoin d'y jouer tous les jours. Ne le désinstalle pas avant 14 jours. Merci, tu es un dieu 🙏</p>
+      <a class="bouton" href="https://play.google.com/store/apps/details?id=com.trapzor.genese" target="_blank" rel="noopener" data-fr="Installer Genèse" data-en="Install Genesis">Installer Genèse</a>
+    </li>
+  </ol>
+
+  <div class="captures">
+    <img src="img/planete1.jpg" alt="" loading="lazy">
+    <img src="img/creation.jpg" alt="" loading="lazy">
+    <img src="img/paysage.jpg" alt="" loading="lazy">
+    <img src="img/planete2.jpg" alt="" loading="lazy">
+  </div>
+
+  <footer>
+    <img src="../img/trapcorp.png" alt="Trap Corp">
+    <span data-fr="Un jeu Trap Corp · sans compte, pubs seulement si tu le choisis" data-en="A Trap Corp game · no account, ads only if you choose">Un jeu Trap Corp · sans compte, pubs seulement si tu le choisis</span><br>
+    <a href="https://trapzor-souf.github.io/genese-politique/" data-fr="Politique de confidentialité" data-en="Privacy policy">Politique de confidentialité</a>
+  </footer>
+</main>
+<script>
+  var lang = (navigator.language || 'fr').slice(0, 2) === 'fr' ? 'fr' : 'en';
+  function appliquer() {
+    document.documentElement.lang = lang;
+    document.querySelectorAll('[data-fr]').forEach(function (el) { el.innerHTML = el.getAttribute('data-' + lang); });
+    document.getElementById('bascule').textContent = lang === 'fr' ? 'English' : 'Français';
+    document.title = lang === 'fr' ? 'Genèse – Deviens testeur' : 'Genesis – Become a tester';
+  }
+  document.getElementById('bascule').onclick = function () { lang = lang === 'fr' ? 'en' : 'fr'; appliquer(); };
+  appliquer();
+</script>
+</body>
+</html>
